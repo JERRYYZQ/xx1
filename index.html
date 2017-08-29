@@ -65,6 +65,7 @@
 				margin-top: 15px;
 			}
 			ul li p{
+				width:100px;
 				padding-left: 50px;
 				margin-top: 5px;
 				overflow: hidden;
@@ -80,7 +81,29 @@
 				right: 0;
 				top: 30px;
 			}
+			.iconfont{
+			  font-family:"iconfont" !important;
+			  font-size:20px;font-style:normal;
+			  -webkit-font-smoothing: antialiased;
+			  -webkit-text-stroke-width: 0.2px;
+			  -moz-osx-font-smoothing: grayscale;
+			}
+			ol {
+				list-style: none;
+				width: 100%;
+			}
+			ol li{
+				float: left;
+				width: 25%;
+				text-align: center;
+				
+			}
+			ol li span{
+				display: block;
+				font-size: 13px;
+			}
 		</style>
+	<link rel="stylesheet" type="text/css" href="css/css.css"/>
 	</head>
 	<body>
 		<header class="top">头部</header>
@@ -104,6 +127,11 @@
 				
 			</ul>
 		</section>
-		<footer class="bottom">底部</footer>
+		<footer class="bottom"><ol>
+			<li><i class="iconfont">&#xe6a1;</i><span>通讯录</span></li>
+			<li><i class="iconfont">&#xe6a0;</i><span>消息</span></li>
+			<li><i class="iconfont">&#xe7c7;</i><span>通话</span></li>
+			<li><i class="iconfont">&#xe60b;</i><span>我</span></li>
+		</ol></footer>
 	</body>
 </html>
